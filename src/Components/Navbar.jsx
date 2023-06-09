@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="container flex justify-between items-center text-white lg:hidden">
             {/* Logo and Name */}
             <div className="flex items-center space-x-2">
-              <img src="../src/assets/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
+              <img src="/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
               <div className="leading-tight">
                 <h1 className='inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-md text-transparent'>Yoshilyn Fujitani</h1>
                 <p className='text-subtext  text-sm  ' >Web Developer</p>
@@ -50,7 +50,7 @@ const Navbar = () => {
               <button onClick={() => setmenu(!open)} className='text-[28px] self-end py-4 px-9'><BiArrowBack className='transition text-white hover:text-subtext' /></button>
               {/* Logo and Name */}
               <div className="flex items-center w-full justify-center gap-4">
-                <img src="../src/assets/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
+                <img src="/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
                 <div className="leading-none">
                   <h1 className=' animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent'>Yoshilyn Fujitani</h1>
                   <p className='text-subtext  text-sm  ' >Web Developer</p>
@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="bg-Main w-64 h-screen fixed top-0 flex flex-col  items-center">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2 py-6 justify-between">
-            <img src="../src/assets/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
+            <img src="/pic.jpg" alt="" className='w-9 h-9 rounded-full' />
             <div className="leading-none">
               <h1 className=' animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent'>Yoshilyn Fujitani</h1>
               <p className='text-subtext  text-sm  ' >Web Developer</p>
