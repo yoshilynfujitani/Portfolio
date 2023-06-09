@@ -15,7 +15,8 @@ function App() {
   return (
     <>
     
-  
+  <div className="flex flex-col overflow-clip">
+    
    <BrowserRouter>
    <Navbar />
       <Routes>
@@ -29,6 +30,7 @@ function App() {
         </Routes>
    
     </BrowserRouter>
+  </div>
     </>
   )
 }

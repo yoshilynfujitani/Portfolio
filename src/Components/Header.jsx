@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-4xl text-transparent font-semibold`
   return (
-    <motion.div className='container pt-40 px-6 py-5 text-white overflow-hidden lg:pl-[400px] lg:pr-48'  initial={{ y: -100 }} // Initial position off-screen
+    <motion.div className='container pt-16 px-6 py-5 text-white overflow-clip lg:pl-[400px] lg:pr-48 lg:pt-48'  initial={{ y: -100 }} // Initial position off-screen
     animate={{ y: 0 }} // Final position on-screen
     transition={{ type: 'spring', duration: 1 }}>
      

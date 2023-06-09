@@ -8,7 +8,8 @@ export default {
     extend: {
       
         animation: {
-          "background-shine": "background-shine 3s linear infinite"
+          "background-shine": "background-shine 3s linear infinite",
+          "pulse-slow": "pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)"
         },
         keyframes: {
           "text-gradient": {
