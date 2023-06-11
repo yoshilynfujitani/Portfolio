@@ -15,6 +15,8 @@ import { SiMysql } from "react-icons/si";
 import BadgeText from '../Components/BadgeText'
 import { Link } from 'react-router-dom'
 import TechStack from '../Components/TechStack'
+import { DiReact } from "react-icons/di";
+import ContactMe from '../Components/ContactMe'
 
 
 
@@ -35,7 +37,7 @@ const Home = () => {
       title: "Weather App",
       desc: "API integrated project",
       img: Weather,
-      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript],
+      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript,DiReact],
       purpose: "Learning"
     },
     {
@@ -43,7 +45,7 @@ const Home = () => {
       title: "Pokedex",
       desc: "API integrated project",
       img: Pokedex,
-      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript],
+      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript,DiReact],
       purpose: "Learning"
     }
   ]
@@ -70,6 +72,7 @@ const Home = () => {
       </Link>
       <div className="container lg:pl-[320px]">
         <TechStack/>
+        <ContactMe/>
       </div>
       
 
