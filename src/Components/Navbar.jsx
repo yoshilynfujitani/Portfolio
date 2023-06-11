@@ -75,7 +75,7 @@ const Navbar = () => {
       </AnimatePresence>
       {/* Desktop */}
       <div className="hidden lg:block">
-        <div className="bg-Main w-64 h-screen fixed top-0 flex flex-col  items-center">
+        <div className="bg-Main w-64 h-screen fixed top-0 flex flex-col  items-center shadow-xl z-10">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2 py-6 justify-between">
             <img src={dp} alt="" className='w-9 h-9 rounded-full' />
