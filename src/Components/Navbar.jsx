@@ -8,6 +8,8 @@ import { HiInformationCircle } from "react-icons/hi";
 import { HiDocumentText } from "react-icons/hi";
 import { HiGlobeAlt } from "react-icons/hi";
 import { HiBriefcase } from "react-icons/hi";
+import { AiFillLinkedin} from "react-icons/ai";
+import { AiFillGithub} from "react-icons/ai";
 import dp from "/pic.jpg"
 
 
@@ -66,7 +68,14 @@ const Navbar = () => {
                   <Link to="/contact" onClick={() => setmenu(!open)}><li className={Menulist}><HiGlobeAlt />Contact</li></Link>
                   <Link to="/projects" onClick={() => setmenu(!open)}><li className={Menulist}><HiBriefcase />Projects</li></Link>
                 </ul>
+             
               </div>
+              <h1 className='text-sm font-semibold self-start px-9 py-2 text-white '>Follow Me</h1>
+              <ul className='flex flex-col float-left px-9 text-white space-y-2 w-full'>
+                  <li onClick={() => setmenu(!open)}><a href="https://www.linkedin.com/in/yoshilyn-fujitani-b3ab72232/" target="_blank" className={Menulist} ><AiFillLinkedin />LinkedIn</a></li>
+                  <li onClick={() => setmenu(!open)}><a href="https://github.com/yoshilynfujitani" target="_blank" className={Menulist} ><AiFillGithub />Github</a></li>
+                  
+                </ul>
             </div>
 
           </motion.div>
@@ -93,7 +102,14 @@ const Navbar = () => {
               <Link to="/contact" onClick={() => setmenu(!open)}><li className={Menulist}><HiGlobeAlt />Contact</li></Link>
               <Link to="/projects" onClick={() => setmenu(!open)}><li className={Menulist}><HiBriefcase />Projects</li></Link>
             </ul>
+            
           </div>
+          <h1 className='text-sm font-semibold self-start px-9 py-2 text-white '>Follow Me</h1>
+              <ul className='flex flex-col float-left px-9 text-white space-y-2 w-full'>
+                  <li onClick={() => setmenu(!open)}><a href="https://www.linkedin.com/in/yoshilyn-fujitani-b3ab72232/" target="_blank" className={Menulist} ><AiFillLinkedin />LinkedIn</a></li>
+                  <li onClick={() => setmenu(!open)}><a href="https://github.com/yoshilynfujitani" target="_blank" className={Menulist} ><AiFillGithub />Github</a></li>
+                  
+                </ul>
         </div>
 
       </div>

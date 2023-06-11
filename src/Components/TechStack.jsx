@@ -14,10 +14,11 @@ import { SiMongodb } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
+import { DiPython } from "react-icons/di";
 
 const TechStack = () => {
     const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent font-semibold lg:text-xl`
-    const used = [AiFillGithub, AiFillHtml5, DiCss3, DiJavascript, DiPhp, SiTailwindcss, SiMysql, DiReact, SiExpress, SiMongodb, DiSass, DiNodejsSmall];
+    const used = [AiFillGithub, AiFillHtml5, DiCss3, DiJavascript, DiPhp, SiTailwindcss, SiMysql, DiReact, SiExpress, SiMongodb, DiSass, DiNodejsSmall, DiPython];
     const designused = [SiFigma, SiCanva, SiAdobexd]
    
     return (
