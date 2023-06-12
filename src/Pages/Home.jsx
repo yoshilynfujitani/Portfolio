@@ -70,9 +70,11 @@ const Home = () => {
      <Link to="/projects"><BadgeText props="View Projects"/></Link>
       </div>
       
-      <div className=" lg:pl-[320px] lg:pr-[200px]">
+      <div className="container  lg:pl-[320px] lg:pr-[200px]">
         <TechStack/>
+        <div className="px-6 lg:px-0">
         <ContactMe/>
+        </div>
       </div>
       
 

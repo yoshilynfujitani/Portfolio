@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const ContactMe = () => {
     const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-4xl text-transparent font-semibold lg:text-6xl lg:font-bold`
   return (
-    <div className="container px-6 py-10 bg-Main rounded-md mx-6 my-10 shadow-xl lg:mx-0">
+    <div className="container px-6 py-10 bg-Main rounded-md  my-10 shadow-xl lg:mx-0">
         <div className="">
             <h1 className={gradienttext}>Interested?</h1>
             <p className="text-slate-50 font-thin py-2">Ready to work together? Let's make amazing things happen!</p>

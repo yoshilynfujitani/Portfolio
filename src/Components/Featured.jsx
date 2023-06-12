@@ -16,7 +16,7 @@ const Featured = (props) => {
             const IconComponent = item;
             
             const iconClass = `transition text-3xl lg:text-4xl text-subtext hover:scale-105 hover:text-slate-50`;
-            console.log(iconClass)
+           
          
             return <span key={index} className={iconClass}><IconComponent /></span>;
           })}
