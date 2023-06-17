@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
@@ -17,36 +17,53 @@ import { SiAdobexd } from "react-icons/si";
 import { DiPython } from "react-icons/di";
 
 const TechStack = () => {
-    const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent font-semibold lg:text-xl`
-    const used = [AiFillGithub, AiFillHtml5, DiCss3, DiJavascript, DiPhp, SiTailwindcss, SiMysql, DiReact, SiExpress, SiMongodb, DiSass, DiNodejsSmall, DiPython];
-    const designused = [SiFigma, SiCanva, SiAdobexd]
-   
-    return (
-        <div className="px-6 my-10 lg:px-0">
-            <h1 className={gradienttext}>Development Tools</h1>
-            <div className="grid grid-cols-4 place-items-center place-content-center gap-4 py-2 lg:grid-cols-6 ">
-                {used.map((item, index) => {
-                    const IconComponent = item;
-                    
-                    const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
-                   
+  const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent font-semibold lg:text-xl`;
+  const used = [
+    AiFillGithub,
+    AiFillHtml5,
+    DiCss3,
+    DiJavascript,
+    DiPhp,
+    SiTailwindcss,
+    SiMysql,
+    DiReact,
+    DiSass,
+    DiPython,
+  ];
+  const designused = [SiFigma, SiAdobexd];
 
-                    return <span key={index} className={iconClass}><IconComponent /></span>;
-                })}
-            </div>
-            <h1 className={gradienttext}>Design Tools</h1>
-            <div className="grid grid-cols-4 place-items-center place-content-center gap-4 py-2 lg:grid-cols-6 ">
-                {designused.map((item, index) => {
-                    const IconComponent = item;
-               
-                    const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
-                 
+  return (
+    <div className="px-6 my-10 lg:px-0">
+      <h1 className={gradienttext}>Development Tools</h1>
+      <div className="grid grid-cols-4 place-items-center place-content-center gap-4 py-2 lg:grid-cols-6 ">
+        {used.map((item, index) => {
+          const IconComponent = item;
 
-                    return <span key={index} className={iconClass}><IconComponent /></span>;
-                })}
-            </div>
-        </div>
-    )
-}
+          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
 
-export default TechStack
+          return (
+            <span key={index} className={iconClass}>
+              <IconComponent />
+            </span>
+          );
+        })}
+      </div>
+      <h1 className={gradienttext}>Design Tools</h1>
+      <div className="grid grid-cols-4 place-items-center place-content-center gap-4 py-2 lg:grid-cols-6 ">
+        {designused.map((item, index) => {
+          const IconComponent = item;
+
+          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
+
+          return (
+            <span key={index} className={iconClass}>
+              <IconComponent />
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default TechStack;
