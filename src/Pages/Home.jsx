@@ -21,7 +21,7 @@ import ContactMe from '../Components/ContactMe'
 
 
 const Home = () => {
-  
+
 
   const works = [
     {
@@ -37,7 +37,7 @@ const Home = () => {
       title: "Weather App",
       desc: "API integrated project",
       img: Weather,
-      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript,DiReact],
+      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
       purpose: "Learning"
     },
     {
@@ -45,7 +45,7 @@ const Home = () => {
       title: "Pokedex",
       desc: "API integrated project",
       img: Pokedex,
-      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript,DiReact],
+      stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
       purpose: "Learning"
     }
   ]
@@ -66,17 +66,17 @@ const Home = () => {
           <Featured {...item} key={item.id} />
         ))}
       </motion.div>
-     <div className="flex justify-center items-center py-10 lg:pl-[320px] lg:py-20 lg:pr-[200px]">
-     <Link to="/projects"><BadgeText props="View Projects"/></Link>
+      <div className="flex justify-center items-center py-10 lg:pl-[320px] lg:py-20 lg:pr-[200px]">
+        <Link to="/projects"><BadgeText props="View Projects" /></Link>
       </div>
-      
+
       <div className="container  lg:pl-[320px] lg:pr-[200px]">
-        <TechStack/>
+        <TechStack />
         <div className="px-6 lg:px-0">
-        <ContactMe/>
+
         </div>
       </div>
-      
+
 
 
     </div>
