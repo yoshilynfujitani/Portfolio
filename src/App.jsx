@@ -14,23 +14,23 @@ function App() {
 
   return (
     <>
-    
-  <div className="flex flex-col overflow-clip">
-    
-   <BrowserRouter>
-   <Navbar />
-      <Routes>
-          <Route path="/Portfolio" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-          
-          
-        </Routes>
-   <Footer/>
-    </BrowserRouter>
-  </div>
+
+      <div className="flex flex-col overflow-clip">
+
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/Portfolio" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+
+
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
     </>
   )
 }
