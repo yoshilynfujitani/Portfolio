@@ -23,7 +23,7 @@ const About = () => {
             animate={{ x: 0 }} // Final position on-screen
             transition={{ type: 'spring', duration: 1 }}>
             <h1 className="text-white font-semibold">College</h1>
-            <div className="px-6 flex items-center py-5 gap-2">
+            <div className="px-6 flex items-center py-4 gap-2 bg-Main rounded-md my-2">
               <img src={logommsu} alt="" className="w-12 h-12" />
               <p className="text-white text-md font-semibold flex flex-col">
                 Bachelor of Science in Computer Science
@@ -36,7 +36,7 @@ const About = () => {
             animate={{ x: 0 }} // Final position on-screen
             transition={{ type: 'spring', duration: 1 }}>
             <h1 className="text-white font-semibold">Secondary</h1>
-            <div className="px-6 flex items-center py-5 gap-2">
+            <div className="px-6 flex items-center py-4 gap-2 bg-Main rounded-md my-2">
               <img src={innhslogo} alt="" className="w-12 h-12" />
               <p className="text-white text-md font-semibold flex flex-col">
                 Ilocos Norte National Highschool - Accountancy and Business Management (ABM) Track
@@ -48,7 +48,7 @@ const About = () => {
             animate={{ x: 0 }} // Final position on-screen
             transition={{ type: 'spring', duration: 1 }}>
 
-            <div className="px-6 flex items-center py-5 gap-2">
+            <div className="px-6 flex items-center py-4 gap-2 bg-Main rounded-md my-2">
               <img src={innhslogo} alt="" className="w-12 h-12" />
               <p className="text-white text-md font-semibold flex flex-col">
 
@@ -62,7 +62,7 @@ const About = () => {
           <motion.div className="" initial={{ x: -50 }} // Initial position off-screen
             animate={{ x: 0 }} // Final position on-screen
             transition={{ type: 'spring', duration: 1 }}>
-            <div className="px-6 flex items-center py-5 gap-2">
+            <div className="px-6 flex items-center py-4 gap-2 bg-Main rounded-md my-2">
               <img src={glogo} alt="" className="w-12 h-12" />
               <p className="text-white text-md font-semibold flex flex-col">
                 Google UX Design Specializaion

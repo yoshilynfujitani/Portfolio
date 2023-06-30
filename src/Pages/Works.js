@@ -5,10 +5,11 @@ import { DiJavascript } from "react-icons/di";
 import { DiPhp } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-
+import { DiReact } from "react-icons/di";
 import Habiya from "/Habiya.png"
 import Weather from "/Weather.png"
 import Pokedex from "/Pokedex.png"
+import Worldwise from "/Worldwise.png"
 
 const works = [
   {
@@ -20,11 +21,19 @@ const works = [
     purpose: "CmpSc 117 Project",
   },
   {
+    id: 4,
+    title: "Worldwise",
+    desc: "API integrated project",
+    img: Worldwise,
+    stack: [AiFillGithub, AiFillHtml5, DiCss3, DiJavascript, DiReact],
+    purpose: "A course of Jonas Schertmad",
+  },
+  {
     id: 2,
     title: "Weather App",
     desc: "API integrated project",
     img: Weather,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript],
+    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
     purpose: "Learning",
   },
   {
@@ -32,9 +41,10 @@ const works = [
     title: "Pokedex",
     desc: "API integrated project",
     img: Pokedex,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript],
+    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
     purpose: "Learning",
   },
+
 ];
 
 export default works;

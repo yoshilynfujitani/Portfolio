@@ -6,6 +6,7 @@ import works from './Works'
 import TechStack from '../Components/TechStack'
 import BadgeText from '../Components/BadgeText'
 import { Link } from 'react-router-dom'
+import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {

@@ -11,6 +11,7 @@ import { HiBriefcase } from "react-icons/hi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import dp from "/pic.jpg";
+import Typewriter from 'typewriter-effect';
 
 const Navbar = () => {
   const Menulist = `transition flex items-center text-subtext hover:bg-Background px-2 py-2 rounded-md hover:text-white gap-1`;
@@ -38,7 +39,15 @@ const Navbar = () => {
                   <h1 className="inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-md text-transparent">
                     Yoshilyn Fujitani
                   </h1>
-                  <p className="text-subtext  text-sm  ">Web Developer</p>
+                  <div className="text-subtext  text-sm  "><Typewriter
+                    options={{
+                      strings: ["Web Designer", "Web Developer", "Tech Enthusiast"],
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 50,
+                      delay: 50
+                    }}
+                  /></div>
                 </div>
               </div>
               {/* Menu */}
@@ -96,12 +105,7 @@ const Navbar = () => {
                       About Me
                     </li>
                   </Link>
-                  <Link to="/blogs" onClick={() => setmenu((open) => !open)}>
-                    <li className={Menulist}>
-                      <HiDocumentText />
-                      Blogs
-                    </li>
-                  </Link>
+
                   <Link to="/contact" onClick={() => setmenu((open) => !open)}>
                     <li className={Menulist}>
                       <HiGlobeAlt />
@@ -155,7 +159,15 @@ const Navbar = () => {
               <h1 className=" animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent">
                 Yoshilyn Fujitani
               </h1>
-              <p className="text-subtext  text-sm  ">Web Developer</p>
+              <div className="text-subtext  text-sm  "> <Typewriter
+                options={{
+                  strings: ["Web Designer", "Web Developer", "Tech Enthusiast"],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 50,
+                  delay: 50
+                }}
+              /></div>
             </div>
           </div>
           {/* Menu Options */}
@@ -173,12 +185,7 @@ const Navbar = () => {
                   About Me
                 </li>
               </Link>
-              <Link to="/blogs" onClick={() => setmenu((open) => !open)}>
-                <li className={Menulist}>
-                  <HiDocumentText />
-                  Blogs
-                </li>
-              </Link>
+
               <Link to="/contact" onClick={() => setmenu((open) => !open)}>
                 <li className={Menulist}>
                   <HiGlobeAlt />
