@@ -5,7 +5,7 @@ const Featured = (props) => {
 
 
   return (
-    <div className="bg-Main container px-6 rounded-md transition hover:scale-105  lg:px-0">
+    <div className="bg-Main container rounded-md transition hover:scale-105  lg:px-0">
       {/* card */}
       <div className="py-4 cursor-pointer px-4">
         <img src={props.img} alt="" className='rounded-md  ' />
