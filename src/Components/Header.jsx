@@ -14,7 +14,7 @@ const Header = () => {
 
       <h1 className='text-4xl font-medium text-slate-50  max-h-20  leading-10 lg:text-6xl lg:font-bold'>Hello! I'm Yoshi. <br /> <Typewriter
         options={{
-          strings: [`I <span class="${gradienttext}"> create </span> and  <span class="${gradienttext}"> develop </span> websites`,],
+          strings: [`I <span class="${gradienttext}"> create </span> and  <span class="${gradienttext}"> develop </span> websites`, `I am a <span class="${gradienttext}"> Computer Science </span> Student`],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,

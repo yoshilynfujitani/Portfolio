@@ -99,20 +99,20 @@ const Navbar = () => {
                       Home
                     </li>
                   </Link>
-                  <Link to="/about" onClick={() => setmenu((open) => !open)}>
+                  <Link to="/Portfolio/about" onClick={() => setmenu((open) => !open)}>
                     <li className={Menulist}>
                       <HiInformationCircle />
                       About Me
                     </li>
                   </Link>
 
-                  <Link to="/contact" onClick={() => setmenu((open) => !open)}>
+                  <Link to="/Portfolio/contact" onClick={() => setmenu((open) => !open)}>
                     <li className={Menulist}>
                       <HiGlobeAlt />
                       Contact
                     </li>
                   </Link>
-                  <Link to="/projects" onClick={() => setmenu((open) => !open)}>
+                  <Link to="/Portfolio/projects" onClick={() => setmenu((open) => !open)}>
                     <li className={Menulist}>
                       <HiBriefcase />
                       Projects
@@ -179,20 +179,20 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link to="/about" onClick={() => setmenu((open) => !open)}>
+              <Link to="/Portfolio/about" onClick={() => setmenu((open) => !open)}>
                 <li className={Menulist}>
                   <HiInformationCircle />
                   About Me
                 </li>
               </Link>
 
-              <Link to="/contact" onClick={() => setmenu((open) => !open)}>
+              <Link to="/Portfolio/contact" onClick={() => setmenu((open) => !open)}>
                 <li className={Menulist}>
                   <HiGlobeAlt />
                   Contact
                 </li>
               </Link>
-              <Link to="/projects" onClick={() => setmenu((open) => !open)}>
+              <Link to="/Portfolio/projects" onClick={() => setmenu((open) => !open)}>
                 <li className={Menulist}>
                   <HiBriefcase />
                   Projects

@@ -18,13 +18,13 @@ function App() {
       <div className="flex flex-col overflow-clip">
 
         <BrowserRouter>
-          <Navbar />
+          <div className="sticky top-0 z-30"> <Navbar /></div>
           <Routes>
             <Route path="/Portfolio" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/Portfolio/about" element={<About />} />
 
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/Portfolio/contact" element={<Contact />} />
+            <Route path="/Portfolio/projects" element={<Projects />} />
 
 
           </Routes>
