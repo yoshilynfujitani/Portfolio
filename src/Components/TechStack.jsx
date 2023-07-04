@@ -44,7 +44,7 @@ const TechStack = () => {
         {used.map((item, index) => {
           const IconComponent = item;
 
-          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
+          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-gray-600 hover:text-gray-800 dark:text-subtext hover:scale-105 dark:hover:text-slate-50`;
 
           return (
             <span key={index} className={iconClass}>
@@ -58,7 +58,7 @@ const TechStack = () => {
         {designused.map((item, index) => {
           const IconComponent = item;
 
-          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-subtext hover:scale-105 hover:text-slate-50`;
+          const iconClass = `transition py-2 cursor-pointer px-4 text-[50px] lg:text-[60px] text-gray-600  hover:text-gray-800 dark:text-subtext hover:scale-105 dark:hover:text-slate-50`;
 
           return (
             <span key={index} className={iconClass}>
