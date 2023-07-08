@@ -13,11 +13,9 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
 import { DiPython } from "react-icons/di";
-
-
 
 const TechStack = () => {
   const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent font-semibold lg:text-xl`;
@@ -31,9 +29,8 @@ const TechStack = () => {
     DiPhp,
     SiMysql,
     DiReact,
-    SiRedux,
+    TbBrandRedux,
     DiPython,
-
   ];
   const designused = [SiFigma, SiAdobexd];
 

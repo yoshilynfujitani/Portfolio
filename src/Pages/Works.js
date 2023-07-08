@@ -6,10 +6,11 @@ import { DiPhp } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { DiReact } from "react-icons/di";
-import Habiya from "/Habiya.png"
-import Weather from "/Weather.png"
-import Pokedex from "/Pokedex.png"
-import Worldwise from "/Worldwise.png"
+import Habiya from "/Habiya.png";
+import Weather from "/Weather.png";
+import Pokedex from "/Pokedex.png";
+import Worldwise from "/Worldwise.png";
+import TodoAppV2 from "/TodoAppV2.png";
 
 const works = [
   {
@@ -17,7 +18,15 @@ const works = [
     title: "Habiya",
     desc: "An Ilocano E-Commerce Project",
     img: Habiya,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiPhp, SiMysql],
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiPhp,
+      SiMysql,
+    ],
     purpose: "CmpSc 117 Project",
   },
   {
@@ -33,18 +42,31 @@ const works = [
     title: "Weather App",
     desc: "API integrated project",
     img: Weather,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
     purpose: "Learning",
   },
   {
     id: 3,
-    title: "Pokedex",
-    desc: "API integrated project",
-    img: Pokedex,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, SiTailwindcss, DiJavascript, DiReact],
+    title: "ToDoApp V2.0",
+    desc: "Redux ToolKit Project",
+    img: TodoAppV2,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
     purpose: "Learning",
   },
-
 ];
 
 export default works;

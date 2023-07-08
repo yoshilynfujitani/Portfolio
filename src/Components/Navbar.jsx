@@ -11,7 +11,7 @@ import { HiBriefcase } from "react-icons/hi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import dp from "/pic.jpg";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 const Navbar = () => {
   const Menulist = `transition flex items-center text-gray-700 dark:text-subtext hover:bg-gray-200 dark:hover:bg-Background px-2 py-2 rounded-md dark:hover:text-white gap-1`;
@@ -39,15 +39,21 @@ const Navbar = () => {
                   <h1 className="inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-md text-transparent">
                     Yoshilyn Fujitani
                   </h1>
-                  <div className="text-slate-700  text-sm  "><Typewriter
-                    options={{
-                      strings: ["UI/UX Designer", "Web Developer", "Tech Enthusiast"],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 50,
-                      delay: 50
-                    }}
-                  /></div>
+                  <div className="text-slate-700 dark:text-slate-50  text-sm  ">
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "UI/UX Designer",
+                          "Web Developer",
+                          "Tech Enthusiast",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        deleteSpeed: 50,
+                        delay: 50,
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
               {/* Menu */}
@@ -56,7 +62,9 @@ const Navbar = () => {
                   onClick={() => setmenu((open) => !open)}
                   className="text-[28px] "
                 >
-                  {<CgMenuGridR className="text-slate-700 dark:text-slate-50" />}
+                  {
+                    <CgMenuGridR className="text-slate-700 dark:text-slate-50" />
+                  }
                 </button>
               </div>
             </div>
@@ -84,15 +92,21 @@ const Navbar = () => {
                   <h1 className=" animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent">
                     Yoshilyn Fujitani
                   </h1>
-                  <div className="text-slate-700  text-sm  "><Typewriter
-                    options={{
-                      strings: ["Web Designer", "Web Developer", "Tech Enthusiast"],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 50,
-                      delay: 50
-                    }}
-                  /></div>
+                  <div className="text-slate-700 dark:text-slate-50  text-sm  ">
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Web Designer",
+                          "Web Developer",
+                          "Tech Enthusiast",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        deleteSpeed: 50,
+                        delay: 50,
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
               {/* Menu Options */}
@@ -107,20 +121,29 @@ const Navbar = () => {
                       Home
                     </li>
                   </Link>
-                  <Link to="/Portfolio/about" onClick={() => setmenu((open) => !open)}>
+                  <Link
+                    to="/Portfolio/about"
+                    onClick={() => setmenu((open) => !open)}
+                  >
                     <li className={Menulist}>
                       <HiInformationCircle />
                       About Me
                     </li>
                   </Link>
 
-                  <Link to="/Portfolio/contact" onClick={() => setmenu((open) => !open)}>
+                  <Link
+                    to="/Portfolio/contact"
+                    onClick={() => setmenu((open) => !open)}
+                  >
                     <li className={Menulist}>
                       <HiGlobeAlt />
                       Contact
                     </li>
                   </Link>
-                  <Link to="/Portfolio/projects" onClick={() => setmenu((open) => !open)}>
+                  <Link
+                    to="/Portfolio/projects"
+                    onClick={() => setmenu((open) => !open)}
+                  >
                     <li className={Menulist}>
                       <HiBriefcase />
                       Projects
@@ -128,7 +151,7 @@ const Navbar = () => {
                   </Link>
                 </ul>
               </div>
-              <h1 className="text-sm font-semibold self-start px-9 py-2 text-white ">
+              <h1 className="text-sm font-semibold self-start px-9 py-2 text-slate-700 dark:text-white ">
                 Follow Me
               </h1>
               <ul className="flex flex-col float-left px-9 text-white space-y-2 w-full">
@@ -167,15 +190,22 @@ const Navbar = () => {
               <h1 className=" animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent">
                 Yoshilyn Fujitani
               </h1>
-              <div className="text-subtext  text-sm  "> <Typewriter
-                options={{
-                  strings: ["Web Designer", "Web Developer", "Tech Enthusiast"],
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 50,
-                  delay: 50
-                }}
-              /></div>
+              <div className="text-subtext  text-sm  ">
+                {" "}
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Web Designer",
+                      "Web Developer",
+                      "Tech Enthusiast",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                    delay: 50,
+                  }}
+                />
+              </div>
             </div>
           </div>
           {/* Menu Options */}
@@ -187,20 +217,29 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link to="/Portfolio/about" onClick={() => setmenu((open) => !open)}>
+              <Link
+                to="/Portfolio/about"
+                onClick={() => setmenu((open) => !open)}
+              >
                 <li className={Menulist}>
                   <HiInformationCircle />
                   About Me
                 </li>
               </Link>
 
-              <Link to="/Portfolio/contact" onClick={() => setmenu((open) => !open)}>
+              <Link
+                to="/Portfolio/contact"
+                onClick={() => setmenu((open) => !open)}
+              >
                 <li className={Menulist}>
                   <HiGlobeAlt />
                   Contact
                 </li>
               </Link>
-              <Link to="/Portfolio/projects" onClick={() => setmenu((open) => !open)}>
+              <Link
+                to="/Portfolio/projects"
+                onClick={() => setmenu((open) => !open)}
+              >
                 <li className={Menulist}>
                   <HiBriefcase />
                   Projects
@@ -209,7 +248,7 @@ const Navbar = () => {
             </ul>
           </div>
           <>
-            <h1 className="text-sm font-semibold self-start px-9 py-2 text-white ">
+            <h1 className="text-sm font-semibold self-start px-9 py-2 text-slate-700 dark:text-white ">
               Follow Me
             </h1>
             <ul className="flex flex-col float-left px-9 text-white space-y-2 w-full">
