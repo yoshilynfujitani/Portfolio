@@ -23,9 +23,9 @@ const Header = () => {
       /></h1>
 
 
-      <p className='pt-28 pb-6 text-md font-thin pr-5 md:pt-14 '>Hello! I'm a passionate third-year Computer Science student specializing in web design and development. With my expertise, I'm actively seeking freelance opportunities. Let's collaborate and bring your ideas to life, making your online presence stand out!</p>
+      <p className='pt-20 pb-6 text-md font-thin pr-5 md:pt-14 '>Hello! I'm a passionate third-year Computer Science student specializing in web design and development. With my expertise, I'm actively seeking freelance opportunities. Let's collaborate and bring your ideas to life, making your online presence stand out!</p>
       <div className="flex space-x-2">
-        <Link to="/contact"> <BadgeText props="Contact" /></Link>
+        <Link to="/Portfolio/contact"> <BadgeText props="Contact" /></Link>
         <CopyEmailBtn />
       </div>
 
