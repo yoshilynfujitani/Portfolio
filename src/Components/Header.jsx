@@ -14,7 +14,7 @@ const Header = () => {
 
       <h1 className='text-4xl font-medium text-black dark:text-slate-50  max-h-20  leading-10 lg:text-6xl lg:font-bold'>Hello! I'm Yoshi. <br /> <Typewriter
         options={{
-          strings: [`I am a <span class="${gradienttext}"> Computer Science </span> Student`, `I <span class="${gradienttext}"> create </span> and  <span class="${gradienttext}"> develop </span> websites`,],
+          strings: [`I am a <span class="${gradienttext}"> Fullstack </span> Developer`, `I <span class="${gradienttext}"> create </span> and  <span class="${gradienttext}"> develop </span> websites`,],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
@@ -23,7 +23,7 @@ const Header = () => {
       /></h1>
 
 
-      <p className='pt-20 pb-6 text-md font-thin pr-5 md:pt-14 '>Hello! I'm a passionate third-year Computer Science student specializing in web design and development. With my expertise, I'm actively seeking freelance opportunities. Let's collaborate and bring your ideas to life, making your online presence stand out!</p>
+      <p className='pt-14 pb-6 text-md font-thin pr-5 md:pt-14 '>Hello! I'm a passionate third-year Computer Science student specializing in web design and development. With my expertise, I'm actively seeking freelance opportunities. Let's collaborate and bring your ideas to life, making your online presence stand out!</p>
       <div className="flex space-x-2">
         <Link to="/Portfolio/contact"> <BadgeText props="Contact" /></Link>
         <CopyEmailBtn />

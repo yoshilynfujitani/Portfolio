@@ -55,7 +55,7 @@ const works = [
   {
     id: 3,
     title: "ToDoApp V2.0",
-    desc: "Redux ToolKit Project",
+    desc: "A Task Monitoring Website",
     img: TodoAppV2,
     stack: [
       AiFillGithub,
