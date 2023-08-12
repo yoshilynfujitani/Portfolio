@@ -31,6 +31,8 @@ const TechStack = () => {
     DiReact,
     TbBrandRedux,
     DiPython,
+    DiNodejsSmall,
+    SiExpress,
   ];
   const designused = [SiFigma, SiAdobexd];
 
