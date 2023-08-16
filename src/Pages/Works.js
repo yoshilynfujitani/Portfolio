@@ -5,12 +5,14 @@ import { DiJavascript } from "react-icons/di";
 import { DiPhp } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { DiNodejsSmall } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import Habiya from "/Habiya.png";
 import Weather from "/Weather.png";
-import Pokedex from "/Pokedex.png";
 import Worldwise from "/Worldwise.png";
 import TodoAppV2 from "/TodoAppV2.png";
+import BlogStack from "/BlogStack.png";
 
 const works = [
   {
@@ -31,11 +33,20 @@ const works = [
   },
   {
     id: 4,
-    title: "Worldwise",
-    desc: "API integrated project",
-    img: Worldwise,
-    stack: [AiFillGithub, AiFillHtml5, DiCss3, DiJavascript, DiReact],
-    purpose: "A course of Jonas Schertmad",
+    title: "BlogStack",
+    desc: "A Blog Website",
+    img: BlogStack,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      DiJavascript,
+      DiReact,
+      DiNodejsSmall,
+      SiExpress,
+      SiMysql,
+    ],
+    purpose: "Fullstack Project",
   },
   {
     id: 2,
