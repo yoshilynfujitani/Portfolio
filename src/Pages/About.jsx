@@ -8,7 +8,7 @@ import AboutMeItems from "../Components/AboutMeItems";
 const About = () => {
   const gradienttext = `inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-2xl text-transparent font-semibold py-2 lg:text-4xl `;
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-Background px-6 py-10">
+    <div className="min-h-screen bg-slate-50 dark:bg-gradient-to-b from-[#110e11] to-[#030009] px-6 py-10">
       <div className="container">
         <div className="lg:pl-[320px] lg:pr-[200px] lg:pt-20">
           <h1 className={gradienttext}>About Me</h1>

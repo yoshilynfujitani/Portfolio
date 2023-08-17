@@ -3,7 +3,7 @@ import React from "react";
 const AboutMeItems = ({ image, Course, Year }) => {
   return (
     <>
-      <div className="px-6 flex items-center min-h-[100px] py-4 gap-2 bg-gray-200 dark:bg-Main rounded-md my-2">
+      <div className="px-6 flex items-center min-h-[100px] py-4 gap-2 bg-gray-200 dark:bg-gradient-to-b from-[#131313] via-[#130e16] to-[#100814] rounded-md my-2">
         <img src={image} alt="" className="w-12 h-12" />
         <p className="text-gray-700 dark:text-white text-md font-semibold flex flex-col">
           {Course}

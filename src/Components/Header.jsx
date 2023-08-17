@@ -15,8 +15,8 @@ const Header = () => {
       transition={{ type: "spring", duration: 1 }}
     >
       <h1 className="text-4xl font-medium text-black dark:text-slate-50  max-h-20  leading-10 lg:text-6xl lg:font-bold">
-        Hello! I'm Yoshi. <br />{" "}
-        <Typewriter
+        Hello! I'm Yoshi. <br />
+        {/* <Typewriter
           options={{
             strings: [
               `I am a <span class="${gradienttext}"> Frontend </span> Developer`,
@@ -27,7 +27,11 @@ const Header = () => {
             deleteSpeed: 50,
             delay: 50,
           }}
-        />
+        /> */}
+        <p className="">
+          I am a <span className="header-text font-bold "> Frontend </span>{" "}
+          Developer
+        </p>
       </h1>
 
       <p className="pt-14 pb-6 text-md font-thin pr-5 md:pt-14 ">

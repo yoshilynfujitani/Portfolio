@@ -30,6 +30,7 @@ const works = [
       SiMysql,
     ],
     purpose: "CmpSc 117 Project",
+    link: "https://github.com/yoshilynfujitani/E-Commerce-Sample-PHP",
   },
   {
     id: 4,
@@ -40,6 +41,7 @@ const works = [
       AiFillGithub,
       AiFillHtml5,
       DiCss3,
+      SiTailwindcss,
       DiJavascript,
       DiReact,
       DiNodejsSmall,
@@ -47,7 +49,9 @@ const works = [
       SiMysql,
     ],
     purpose: "Fullstack Project",
+    link: "https://github.com/yoshilynfujitani/BlogStack",
   },
+
   {
     id: 2,
     title: "Weather App",
@@ -62,6 +66,7 @@ const works = [
       DiReact,
     ],
     purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/Weather-App",
   },
   {
     id: 3,
@@ -77,6 +82,7 @@ const works = [
       DiReact,
     ],
     purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/TodoAppV2",
   },
 ];
 

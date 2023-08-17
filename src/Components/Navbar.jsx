@@ -26,7 +26,7 @@ const Navbar = () => {
       <AnimatePresence>
         {open ? (
           <div
-            className="bg-slate-50 dark:bg-Main py-6 px-6 shadow-md static top-0 w-full z-10 lg:hidden"
+            className="bg-slate-50 dark:bg-Background py-6 px-6 shadow-md static top-0 w-full z-10 lg:hidden"
             initial={{ x: -300 }} // Initial position off-screen
             animate={{ x: 0 }} // Move back to off-screen when open is false
             transition={{ type: "spring", duration: 0.5 }}
@@ -39,7 +39,7 @@ const Navbar = () => {
                   <h1 className="inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-md text-transparent">
                     Yoshilyn Fujitani
                   </h1>
-                  <div className="text-slate-700 dark:text-slate-50  text-sm  ">
+                  <div className="text-subtext  text-sm  ">
                     <Typewriter
                       options={{
                         strings: [
@@ -78,7 +78,7 @@ const Navbar = () => {
             transition={{ type: "spring", duration: 0.25 }}
             exit={{ x: 300 }}
           >
-            <div className="bg-slate-50 dark:bg-Main w-64 h-screen fixed top-0 right-0 flex flex-col  items-center shadow-2xl">
+            <div className="bg-slate-50 dark:bg-gradient-to-b from-[#141414] to-[#030009] w-64 h-screen fixed top-0 right-0 flex flex-col  items-center shadow-2xl">
               <button
                 onClick={() => setmenu((open) => !open)}
                 className="text-[28px] self-end py-4 px-9"
@@ -92,7 +92,7 @@ const Navbar = () => {
                   <h1 className=" animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-lg text-transparent">
                     Yoshilyn Fujitani
                   </h1>
-                  <div className="text-slate-700 dark:text-slate-50  text-sm  ">
+                  <div className="text-subtext  text-sm  ">
                     <Typewriter
                       options={{
                         strings: [
@@ -182,7 +182,7 @@ const Navbar = () => {
       </AnimatePresence>
       {/* Desktop */}
       <div className="hidden lg:block">
-        <div className="bg-slate-50 dark:bg-Main w-64 h-screen fixed top-0 flex flex-col  items-center shadow-xl z-10">
+        <div className="bg-slate-50 dark:bg-gradient-to-b from-[#141414] to-[#030009] w-64 h-screen fixed top-0 flex flex-col  items-center shadow-xl z-10">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2 py-6 justify-between">
             <img src={dp} alt="" className="w-9 h-9 rounded-full" />
