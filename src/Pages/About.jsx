@@ -77,7 +77,6 @@ const About = () => {
                 Course={" Google UX Design Specialization"}
                 Year={"2022-Present"}
               />
-              <p className="">View</p>
             </motion.div>
           </div>
         </div>

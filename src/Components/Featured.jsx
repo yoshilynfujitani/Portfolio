@@ -32,7 +32,7 @@ const Featured = (props) => {
           href={props.link}
           target="blank"
           rel="noopener noreferrer"
-          className="text-gray-800 dark:text-gray-200 transition-colors text-md md:text-lg text-transparent cursor-pointer flex items-center justify-center gap-1 hover:text-slate-800 dark:hover:text-purple-100"
+          className="text-slate-500  dark:text-gray-200 transition-colors text-md md:text-lg text-transparent cursor-pointer flex items-center justify-center gap-1 hover:text-slate-800 dark:hover:text-purple-100"
         >
           <span>
             <AiFillGithub />

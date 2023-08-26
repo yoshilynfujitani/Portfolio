@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 
 import Featured from "../Components/Featured";
-import works from "./Works";
+
+import AllWorks from "./AllWorks";
 
 const Projects = () => {
   const gradienttext = `py-5 md:py-10 inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-xl text-transparent font-semibold lg:text-2xl `;
@@ -15,7 +16,7 @@ const Projects = () => {
         animate={{ y: 0 }} // Final position on-screen
         transition={{ type: "spring", duration: 1.5 }}
       >
-        {works.map((item) => (
+        {AllWorks.map((item) => (
           <Featured {...item} key={item.id} />
         ))}
       </motion.div>

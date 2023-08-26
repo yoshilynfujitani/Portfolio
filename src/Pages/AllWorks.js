@@ -10,12 +10,12 @@ import { DiNodejsSmall } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import Habiya from "/Habiya.png";
 import Weather from "/Weather.png";
-
+import Pokedex from "/Pokedex.png";
 import TodoAppV2 from "/TodoAppV2.png";
 import BlogStack from "/BlogStack.png";
 import TailEssence from "/TailEssence.png";
 
-const works = [
+const AllWorks = [
   {
     id: 1,
     title: "Habiya",
@@ -55,9 +55,9 @@ const works = [
 
   {
     id: 2,
-    title: "TailEssence",
-    desc: "Personal UI Collection",
-    img: TailEssence,
+    title: "Weather App",
+    desc: "API integrated project",
+    img: Weather,
     stack: [
       AiFillGithub,
       AiFillHtml5,
@@ -67,7 +67,7 @@ const works = [
       DiReact,
     ],
     purpose: "Learning",
-    link: "https://github.com/yoshilynfujitani/TailEssence",
+    link: "https://github.com/yoshilynfujitani/Weather-App",
   },
   {
     id: 3,
@@ -85,6 +85,38 @@ const works = [
     purpose: "Learning",
     link: "https://github.com/yoshilynfujitani/TodoAppV2",
   },
+  {
+    id: 5,
+    title: "TailEssence",
+    desc: "Personal UI Collection",
+    img: TailEssence,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/TailEssence",
+  },
+  {
+    id: 6,
+    title: "PokeDex",
+    desc: "API Integrated Project",
+    img: Pokedex,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/Pokedex",
+  },
 ];
 
-export default works;
+export default AllWorks;
