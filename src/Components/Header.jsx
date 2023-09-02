@@ -29,8 +29,8 @@ const Header = () => {
           }}
         /> */}
         <p className="">
-          I am a <span className="header-text font-bold "> Frontend </span>{" "}
-          Developer
+          I am a <span className="header-text font-bold "> Fullstack </span>{" "}
+          Designer
         </p>
       </h1>
 
