@@ -34,6 +34,22 @@ const works = [
     link: "https://github.com/yoshilynfujitani/E-Commerce-Sample-PHP",
   },
   {
+    id: 3,
+    title: "ToDoApp V2.0",
+    desc: "A Task Monitoring Website",
+    img: TodoAppV2,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/TodoAppV2",
+  },
+  {
     id: 4,
     title: "BlogStack",
     desc: "A Blog Website",
@@ -53,38 +69,22 @@ const works = [
     link: "https://github.com/yoshilynfujitani/BlogStack",
   },
 
-  {
-    id: 2,
-    title: "TailEssence",
-    desc: "Personal UI Collection",
-    img: TailEssence,
-    stack: [
-      AiFillGithub,
-      AiFillHtml5,
-      DiCss3,
-      SiTailwindcss,
-      DiJavascript,
-      DiReact,
-    ],
-    purpose: "Learning",
-    link: "https://github.com/yoshilynfujitani/TailEssence",
-  },
-  {
-    id: 3,
-    title: "ToDoApp V2.0",
-    desc: "A Task Monitoring Website",
-    img: TodoAppV2,
-    stack: [
-      AiFillGithub,
-      AiFillHtml5,
-      DiCss3,
-      SiTailwindcss,
-      DiJavascript,
-      DiReact,
-    ],
-    purpose: "Learning",
-    link: "https://github.com/yoshilynfujitani/TodoAppV2",
-  },
+  // {
+  //   id: 2,
+  //   title: "TailEssence",
+  //   desc: "Personal UI Collection",
+  //   img: TailEssence,
+  //   stack: [
+  //     AiFillGithub,
+  //     AiFillHtml5,
+  //     DiCss3,
+  //     SiTailwindcss,
+  //     DiJavascript,
+  //     DiReact,
+  //   ],
+  //   purpose: "Learning",
+  //   link: "https://github.com/yoshilynfujitani/TailEssence",
+  // },
 ];
 
 export default works;

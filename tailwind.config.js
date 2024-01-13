@@ -26,7 +26,10 @@ export default {
         center: true,
       },
       colors: {
-        subtext: "#97998B",
+        subtext: "#6D6D6D",
+        main: "#E7E7E7",
+        secondary: "#161616",
+        borderColor: "#242424",
       },
       backgroundColor: {
         bggradient: "bg-gradient-to-b from-[#141414] to-[#141400]",
