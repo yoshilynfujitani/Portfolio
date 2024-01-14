@@ -1,4 +1,10 @@
 import React from "react";
+import vscode from "/StackIcons/vscode.png";
+import js from "/StackIcons/js.png";
+import rq from "/StackIcons/rq.svg";
+import vue from "/StackIcons/vue.svg";
+import laravel from "/StackIcons/laravel.svg";
+import figma from "/StackIcons/figma.svg";
 
 import StackIcons from "./StackIcons";
 
@@ -7,32 +13,32 @@ const TechStack = () => {
     {
       title: "Visual Studio Code",
       subtitle: "Integrated Development Environment",
-      image: "/StackIcons/vscode.png",
+      image: vscode,
     },
     {
       title: "JavaScript",
       subtitle: "Programming Language",
-      image: "/StackIcons/js.png",
+      image: js,
     },
     {
       title: "React Query",
       subtitle: "Data Fetching and State Management Library",
-      image: "/StackIcons/rq.svg",
+      image: rq,
     },
     {
       title: "Vue.js",
       subtitle: "JavaScript Library",
-      image: "/StackIcons/vue.svg",
+      image: vue,
     },
     {
       title: "Laravel",
       subtitle: "PHP Framework",
-      image: "/StackIcons/laravel.svg",
+      image: laravel,
     },
     {
       title: "Figma",
       subtitle: "Design Tool",
-      image: "/StackIcons/figma.svg",
+      image: figma,
     },
   ];
   return (

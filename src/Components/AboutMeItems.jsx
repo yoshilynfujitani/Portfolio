@@ -3,11 +3,11 @@ import React from "react";
 const AboutMeItems = ({ image, Course, Year }) => {
   return (
     <>
-      <div className="px-6 flex items-center min-h-[100px] py-4 gap-2 bg-gray-200 dark:bg-[3161616] rounded-md my-2">
-        <img src={image} alt="" className="w-12 h-12" />
-        <p className="text-gray-700 dark:text-white text-md font-semibold flex flex-col">
+      <div className="transition-all px-4 flex items-center min-h-[100px] py-2 gap-2  rounded-md  hover:bg-Main hover:cursor-pointer">
+        <img src={image} alt="" className="w-8 h-8" />
+        <p className="text-main leading-0 text-md font-semibold flex flex-col">
           {Course}
-          <span className="font-thin text-sm">{Year}</span>
+          <span className="font-normal text-subtext">{Year}</span>
         </p>
       </div>
     </>

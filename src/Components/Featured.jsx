@@ -3,10 +3,14 @@ import BadgeText from "./BadgeText";
 const Featured = (props) => {
   const { purpose, img, desc, client, link, stack, title } = props;
   return (
-    <div className=" flex flex-col justify-between bg-Main border border-borderColor container rounded-md transition shadow-md hover:scale-105  lg:px-0">
+    <div className=" flex flex-col justify-between bg-Main border border-borderColor  rounded-md transition shadow-md   lg:px-0">
       {/* card */}
       <div className=" cursor-pointer ">
-        <img src={img} alt="" className="rounded-t-lg  " />
+        <img
+          src={img}
+          alt=""
+          className="transition-all rounded-t-lg hover:scale-105 hover:rounded-lg "
+        />
         <div className="px-4 py-2 border-t border-borderColor leading-3">
           <p className="text-main text-md font-bold pt-2 pb-1">
             {title}
