@@ -14,9 +14,14 @@ import dp from "/pic.jpg";
 import Typewriter from "typewriter-effect";
 
 const Navbar = () => {
-  const Menulist = `transition flex items-center justify-between text-[14px] font-medium text-subtext hover:bg-gray-200 hover:bg-Background mx-5 py-2 rounded-md hover:text-white gap-2`;
+  const Menulist = `transition flex items-center justify-between text-[14px] font-medium text-subtext  mx-5 py-2 rounded-md hover:text-white gap-2 `;
   const [open, setmenu] = useState(true);
   const [isRendered, setIsRendered] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
 
   useEffect(() => {
     setIsRendered(true);
@@ -163,7 +168,7 @@ const Navbar = () => {
                 </h1>
                 <ul className="flex flex-col float-left  text-white space-y-2 w-full">
                   <Link
-                    to="/Portfolio/contact"
+                    to="/Portfolio/stack"
                     onClick={() => setmenu((open) => !open)}
                   >
                     <li className={Menulist}>
@@ -306,7 +311,7 @@ const Navbar = () => {
             </h1>
             <ul className="flex flex-col float-left  text-white space-y-2 w-full">
               <Link
-                to="/Portfolio/contact"
+                to="/Portfolio/stack"
                 onClick={() => setmenu((open) => !open)}
               >
                 <li className={Menulist}>

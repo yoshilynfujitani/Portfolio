@@ -10,7 +10,7 @@ import WorkExperience from "../Components/WorkExperience";
 
 const Home = () => {
   return (
-    <div className="w-full overflow-clip  bg-secondary py-10 px-5 lg:px-[200px] lg:py-[80px]">
+    <div className="w-full overflow-clip  bg-secondary py-10 px-5 md:px-[200px] md:py-[80px] 2xl:px-[350px]">
       <Header />
 
       <div className=" lg:pt-20">

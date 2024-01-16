@@ -26,7 +26,7 @@ const About = () => {
     "December",
   ];
   return (
-    <div className="bg-secondary px-5 py-5 lg:px-[200px] space-y-5 lg:py-[80px] lg:pt-20">
+    <div className="bg-secondary space-y-5  py-10 px-5 md:px-[200px] md:py-[80px] 2xl:px-[350px]">
       <h1 className="text-3xl font-semibold text-main">About Me</h1>
       <p className="text-subtext ">
         I'm Yoshilyn Fujitani, a third-year computer science student at Mariano

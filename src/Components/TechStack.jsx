@@ -7,6 +7,7 @@ import laravel from "/StackIcons/laravel.svg";
 import figma from "/StackIcons/figma.svg";
 
 import StackIcons from "./StackIcons";
+import { Link } from "react-router-dom";
 
 const TechStack = () => {
   const data = [
@@ -53,10 +54,11 @@ const TechStack = () => {
           <StackIcons props={icon} key={index} />
         ))}
       </div>
-
-      <div className="text-center bg-Main rounded-md border border-borderColor py-2 text-main font-semibold hover:cursor-pointer">
-        View All
-      </div>
+      <Link to="/Portfolio/stack">
+        <div className="text-center bg-Main rounded-md border border-borderColor py-2 text-main font-semibold hover:cursor-pointer">
+          View All
+        </div>
+      </Link>
     </div>
   );
 };
