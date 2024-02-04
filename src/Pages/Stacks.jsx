@@ -73,11 +73,11 @@ const Stacks = () => {
       subtitle: "Open-source Firebase alternative database",
       image: sb,
     },
-    {
-      title: "C#",
-      subtitle: "Programming Language",
-      image: csharp,
-    },
+    // {
+    //   title: "C#",
+    //   subtitle: "Programming Language",
+    //   image: csharp,
+    // },
   ];
   const design = [
     {
