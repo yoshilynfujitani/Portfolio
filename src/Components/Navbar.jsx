@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div>
-            <div className="bg-Main opacity-70 w-screen h-screen fixed "></div>{" "}
+            <div className="bg-Main opacity-70 w-screen h-screen fixed lg:hidden "></div>{" "}
             <motion.div
               className="z-10 lg:hidden w-screen  "
               key="sidebar"

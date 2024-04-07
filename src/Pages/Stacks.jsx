@@ -53,11 +53,11 @@ const Stacks = () => {
       subtitle: "CSS Framework",
       image: tw,
     },
-    {
-      title: "Redux Toolkit",
-      subtitle: "State Management Library",
-      image: redux,
-    },
+    // {
+    //   title: "Redux Toolkit",
+    //   subtitle: "State Management Library",
+    //   image: redux,
+    // },
     {
       title: "SASS(Syntactically Awesome Stylesheet)",
       subtitle: "CSS Extension",

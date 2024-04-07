@@ -36,11 +36,9 @@ const Featured = (props) => {
           href={link}
           target="blank"
           rel="noopener noreferrer"
-          className="text-main py-2 px-4 w-1/2 rounded-md border border-borderColor transition-colors text-md md:text-md font-semibold  cursor-pointer flex items-center justify-center gap-1 "
+          className="text-main py-2 px-4 w-1/2 bg-[#4d4d4d] rounded-md border border-borderColor transition-colors text-md md:text-md font-semibold  cursor-pointer flex items-center justify-center gap-1 "
         >
-          <span>
-            <AiFillGithub />
-          </span>
+          <span></span>
           Read More
         </a>
       </div>

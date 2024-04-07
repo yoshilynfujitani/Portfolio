@@ -15,10 +15,10 @@ const Header = () => {
       <h1 className="text-4xl  font-light tracking-tighter text-main leading-[50px] lg:text-[45px] lg:font-semibold ">
         Hey, It's Yoshilyn Fujitani.
         <p className="">Fullstack Designer.</p>
-        <p className="">CompSci Student.</p>
+        <p className="">Computer Science.</p>
       </h1>
 
-      <p className="py-5 text-[14px] text-subtext font-medium lg:mr-72 ">
+      <p className="py-5 text-[14px] text-subtext  lg:mr-72 ">
         Welome to my virtual space. I am a passionate Computer Science student
         specializing in web design and development.
       </p>
