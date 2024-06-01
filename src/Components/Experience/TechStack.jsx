@@ -43,7 +43,7 @@ const TechStack = () => {
     },
   ];
   return (
-    <div className="border rounded-md border-borderColor p-5 my-5">
+    <div className="border rounded-md border-borderColorLight dark:border-borderColorDark p-5 my-5">
       <h1 className="font-semibold text-main">Stack</h1>
       <h1 className="text-subtext">
         Software and resources I use on a regular basis
@@ -55,7 +55,7 @@ const TechStack = () => {
         ))}
       </div>
       <Link to="/Portfolio/stack">
-        <div className="text-center bg-Main rounded-md border border-borderColor py-2 text-main font-semibold hover:cursor-pointer">
+        <div className="text-center bg-lightModeMain dark:bg-Main rounded-md border border-borderColorLight dark:border-borderColorDark py-2 text-main font-semibold hover:cursor-pointer">
           View All
         </div>
       </Link>

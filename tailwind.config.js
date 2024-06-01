@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        header: ['"Teachers"', "sans-serif"], // Add the Teachers font
+      },
+      fontWeight: {
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+      },
       animation: {
         "background-shine": "background-shine 3s linear infinite",
         "pulse-slow": "pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)",
@@ -27,9 +38,14 @@ export default {
       },
       colors: {
         subtext: "#6D6D6D",
-        main: "#E7E7E7",
+        lightModeMainText: "#1F1F1F",
+        darkModeMainText: "#E7E7E7",
         secondary: "#161616",
-        borderColor: "#242424",
+        borderColorDark: "#242424",
+        borderColorLight: "#E1E1E1",
+
+        lightModeMain: "#FCFCFC",
+        lightModeSecondary: "#ECECEC",
       },
       backgroundColor: {
         bggradient: "bg-gradient-to-b from-[#141414] to-[#141400]",

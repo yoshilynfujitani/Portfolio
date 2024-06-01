@@ -4,9 +4,9 @@ import glogo from "/glogo.webp";
 import csclogo from "/csclogo.png";
 import innhslogo from "/innhslogo.png";
 import { motion } from "framer-motion";
-import AboutMeItems from "../Components/AboutMeItems";
-import TechStack from "../Components/TechStack";
-import WorkExperience from "../Components/WorkExperience";
+import AboutMeItems from "../Components/Experience/AboutMeItems";
+import TechStack from "../Components/Experience/TechStack";
+import WorkExperience from "../Components/Experience/WorkExperience";
 
 const About = () => {
   const gradienttext = `inline-flex animate-text-gradient text-main font-semibold py-2  `;

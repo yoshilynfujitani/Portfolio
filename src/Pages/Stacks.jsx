@@ -1,5 +1,5 @@
 import React from "react";
-import StackIcons from "../Components/StackIcons";
+import StackIcons from "../Components/Experience/StackIcons";
 import { Link } from "react-router-dom";
 import vscode from "/StackIcons/vscode.png";
 import js from "/StackIcons/js.png";

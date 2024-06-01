@@ -1,33 +1,59 @@
-import React from 'react'
-import { useState, useEffect } from 'react';
-import { MdContentCopy } from "react-icons/md";
+import React, { useState, useEffect, useContext } from "react";
+import { MdOutlineEmail } from "react-icons/md";
+import { ToastContainer, toast } from "react-toastify";
+import DarkModeContext from "../contexts/darkMode";
 
 const CopyEmailBtn = () => {
-  const [copySuccessMessage, setCopySuccessMessage] = useState('')
+  const [copySuccessMessage, setCopySuccessMessage] = useState(false);
 
-  const email = 'fujitaniyoshilynp@gmail.com'
+  const email = "fujitaniyoshilynp@gmail.com";
+  const { dark } = useContext(DarkModeContext);
+  // useEffect(() => {
+  //   if (copySuccessMessage) {
+  //     const timer = setTimeout(() => {
+  //       setCopySuccessMessage(false);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [copySuccessMessage]);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setCopySuccessMessage('')
-    }, 5000)
-    return () => clearTimeout(timer)
-  }, [copySuccessMessage])
-
-  function copyEmail() {
-    navigator.clipboard.writeText(email)
-    setCopySuccessMessage("Copied!")
-  
-  }
-
- 
- 
- 
+  const copyEmail = () => {
+    navigator.clipboard.writeText(email);
+    setCopySuccessMessage(true);
+    toast.success("Email saved to clipboard!", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: dark ? "dark" : "light",
+    });
+  };
 
   return (
-    <button  onClick={copyEmail} className={`px-6 py-2 bg-transparent border border-subtext font-medium border-1 rounded-md  `}>{copySuccessMessage ? <h1 className='transition flex items-center gap-2 transform scale-x-100'><MdContentCopy/>Copied!</h1> : <h1 className='flex items-center gap-2'><MdContentCopy/>E-Mail</h1>}</button>
-   
-  )
-}
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        className="text-sm"
+      />
+      <button onClick={copyEmail} className="">
+        <div className="flex items-center text-md ">
+          <MdOutlineEmail />
+        </div>
+      </button>
+    </>
+  );
+};
 
-export default CopyEmailBtn
+export default CopyEmailBtn;
