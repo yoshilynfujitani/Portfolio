@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/NavBar/Navbar";
 
 import About from "./Pages/About";
@@ -17,7 +17,7 @@ function App() {
     <>
       <DarkModeProvider>
         <div className="w-full">
-          <HashRouter>
+          <BrowserRouter>
             <div className="sticky top-0 z-30">
               <NavbarProvider>
                 <Navbar />
@@ -37,7 +37,7 @@ function App() {
               </Routes>
             </div>
             <Footer />
-          </HashRouter>
+          </BrowserRouter>
         </div>
       </DarkModeProvider>
     </>
