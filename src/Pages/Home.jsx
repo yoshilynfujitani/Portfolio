@@ -13,7 +13,7 @@ import WorkCarousel from "../Components/WorkCarousel";
 const Home = () => {
   return (
     <Container>
-      <div className="w-full overflow-clip  bg-lightModeMain dark:bg-secondary py-10 px-5 md:px-[150px] md:py-[80px] 2xl:px-[350px] ease-in duration-300">
+      <div className="w-full overflow-clip  bg-lightModeMain dark:bg-secondary py-10 px-5 md:px-[150px] md:py-[80px] xl:px-[275px] 2xl:px-[350px] ease-in duration-300">
         <Header />
         <div className=" ">
           <h1 className="inline-flex pb-5 animate-text-gradient text-main text-xl lg:text-2xl font-semibold    lg:px-0 lg:pt-0">

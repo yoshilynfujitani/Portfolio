@@ -10,32 +10,36 @@ const WorkCarousel = () => {
   );
 
   useEffect(() => {
-    let intervalId;
     const handleResize = () => {
-      const isScreenMd = window.matchMedia("(min-width: 768px)").matches;
-      setIsMdScreen(isScreenMd);
-      if (isScreenMd) {
-        intervalId = setInterval(() => {
-          if (currentIndex < works.length - 3) {
-            setCurrentIndex(currentIndex + 1);
-          } else {
-            setCurrentIndex(0);
-          }
-        }, 5000);
-      } else {
-        setCurrentIndex(0);
-        clearInterval(intervalId);
-      }
+      setIsMdScreen(window.matchMedia("(min-width: 768px)").matches);
     };
 
-    handleResize(); // Check initial screen size
     window.addEventListener("resize", handleResize);
 
+    // Clean up the event listener on component unmount
     return () => {
-      clearInterval(intervalId);
       window.removeEventListener("resize", handleResize);
     };
-  }, [currentIndex]);
+  }, []);
+
+  useEffect(() => {
+    let intervalId;
+
+    if (isMdScreen) {
+      intervalId = setInterval(() => {
+        setCurrentIndex((prevIndex) =>
+          prevIndex < works.length - 3 ? prevIndex + 1 : 0
+        );
+      }, 5000);
+    } else {
+      setCurrentIndex(0); // Reset to the first slide if not medium screen
+    }
+
+    // Clean up the interval on component unmount or when screen size changes
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [isMdScreen]);
 
   const nextSlide = () => {
     if (currentIndex < works.length - 3) {

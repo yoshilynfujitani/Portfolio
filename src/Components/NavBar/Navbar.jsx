@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <Container>
-        <div className="flex items-center py-2.5 w-full justify-between px-[10px] md:px-[150px]  2xl:px-[350px] shadow-sm bg-lightModeMain dark:bg-Main z-50">
+        <div className="flex items-center py-2.5 w-full justify-between px-[10px] md:px-[150px] xl:px-[275px] 2xl:px-[350px] shadow-sm bg-lightModeMain dark:bg-Main z-50">
           <div className="flex-1">
             <UserNameAndDP />
           </div>

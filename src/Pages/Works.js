@@ -18,7 +18,7 @@ import TailEssence from "/TailEssence.png";
 const works = [
   {
     id: 6,
-    title: "Alumni Mentorship Program",
+    title: "Alumni Mentorship ",
     desc: "SA Project",
     img: AlumniMentorship,
     stack: [

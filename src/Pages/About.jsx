@@ -29,7 +29,7 @@ const About = () => {
   ];
   return (
     <Container>
-      <div className="bg-lightModeMain dark:bg-secondary space-y-5  py-10 px-5 md:px-[200px] md:py-[80px] 2xl:px-[350px]">
+      <div className="bg-lightModeMain dark:bg-secondary space-y-5  py-10 px-5 md:px-[200px]  2xl:px-[350px]">
         <h1 className="text-3xl font-semibold text-main">About Me</h1>
         <p className="text-subtext ">
           I'm Yoshilyn Fujitani, a computer science student at Mariano Marcos
