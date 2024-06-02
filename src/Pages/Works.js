@@ -10,12 +10,28 @@ import { DiNodejsSmall } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import Habiya from "/Habiya.png";
 import Weather from "/Weather.png";
-
+import AlumniMentorship from "/AlumniMentorship.png";
 import TodoAppV2 from "/TodoAppV2.png";
 import BlogStack from "/BlogStack.png";
 import TailEssence from "/TailEssence.png";
 
 const works = [
+  {
+    id: 6,
+    title: "Alumni Mentorship Program",
+    desc: "SA Project",
+    img: AlumniMentorship,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Work",
+    link: "https://github.com/yoshilynfujitani/Alumni-Mentorship-Program",
+  },
   {
     id: 1,
     title: "Habiya",
@@ -33,26 +49,11 @@ const works = [
     purpose: "CmpSc 117 Project",
     link: "https://github.com/yoshilynfujitani/E-Commerce-Sample-PHP",
   },
+
   {
     id: 3,
-    title: "ToDoApp V2.0",
-    desc: "A Task Monitoring Website",
-    img: TodoAppV2,
-    stack: [
-      AiFillGithub,
-      AiFillHtml5,
-      DiCss3,
-      SiTailwindcss,
-      DiJavascript,
-      DiReact,
-    ],
-    purpose: "Learning",
-    link: "https://github.com/yoshilynfujitani/TodoAppV2",
-  },
-  {
-    id: 4,
     title: "BlogStack",
-    desc: "A Blog Website",
+    desc: "A Blog Website for Bloggers",
     img: BlogStack,
     stack: [
       AiFillGithub,
@@ -69,22 +70,39 @@ const works = [
     link: "https://github.com/yoshilynfujitani/BlogStack",
   },
 
-  // {
-  //   id: 2,
-  //   title: "TailEssence",
-  //   desc: "Personal UI Collection",
-  //   img: TailEssence,
-  //   stack: [
-  //     AiFillGithub,
-  //     AiFillHtml5,
-  //     DiCss3,
-  //     SiTailwindcss,
-  //     DiJavascript,
-  //     DiReact,
-  //   ],
-  //   purpose: "Learning",
-  //   link: "https://github.com/yoshilynfujitani/TailEssence",
-  // },
+  {
+    id: 4,
+    title: "TailEssence",
+    desc: "Personal UI Collection",
+    img: TailEssence,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/TailEssence",
+  },
+
+  {
+    id: 2,
+    title: "ToDoApp V2.0",
+    desc: "A Task Monitoring Website",
+    img: TodoAppV2,
+    stack: [
+      AiFillGithub,
+      AiFillHtml5,
+      DiCss3,
+      SiTailwindcss,
+      DiJavascript,
+      DiReact,
+    ],
+    purpose: "Learning",
+    link: "https://github.com/yoshilynfujitani/TodoAppV2",
+  },
 ];
 
 export default works;

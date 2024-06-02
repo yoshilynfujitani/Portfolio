@@ -10,6 +10,7 @@ import Stacks from "./Pages/Stacks";
 import { DarkModeProvider } from "./contexts/darkMode";
 import ProjectDetails from "./Pages/ProjectDetails";
 import Footer from "./Components/Footer";
+import { NavbarProvider } from "./contexts/navbarContext";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <div className="w-full">
           <BrowserRouter>
             <div className="sticky top-0 z-30">
-              <Navbar />
+              <NavbarProvider>
+                <Navbar />
+              </NavbarProvider>
             </div>
             <div className="">
               <Routes>
