@@ -117,7 +117,7 @@ const Stacks = () => {
       <div className="bg-lightModeMain dark:bg-secondary py-10 px-5 md:px-[200px]  2xl:px-[350px] min-h-screen">
         <h1 className="font-semibold text-main text-2xl">Stack</h1>
         <h1 className="text-subtext">Softwares and Libraries I use at work</h1>
-        <div className="border rounded-md border-borderColor p-5 my-5">
+        <div className="border rounded-md  border-borderColorLight dark:border-borderColorDark p-5 my-5">
           <h1 className="font-semibold text-main">Development</h1>
 
           <div className="my-5 grid grid-cols-1 lg:grid-cols-2 gap-x-1">
@@ -127,7 +127,7 @@ const Stacks = () => {
           </div>
         </div>
 
-        <div className="border rounded-md border-borderColor p-5 my-5">
+        <div className="border rounded-md border-borderColorLight dark:border-borderColorDark p-5 my-5">
           <h1 className="font-semibold text-main">Design</h1>
 
           <div className="my-5 grid grid-cols-1 lg:grid-cols-2 gap-x-1">
